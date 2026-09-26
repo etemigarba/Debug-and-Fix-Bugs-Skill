@@ -7,7 +7,7 @@
 
 Systematic three-phase debugging skill for **Claude Code**: architectural analysis → defect registration → production-ready refactoring with live verification. Root-cause fixes, not band-aids. Zero mock data, defensive control flow, surgical discipline.
 
-**Companion skill:** [`/production-ready-workflow`](https://github.com/etemi/production-ready-workflow) for full-app mock-data eradication.
+**Companion skill:** [`/production-ready-workflow`](https://github.com/etemigarba/Production-Ready-Workflow) for full-app mock-data eradication.
 
 ---
 
@@ -160,7 +160,7 @@ No explicit permission required for adoption, editing, or refactoring of this sk
 
 | Skill | Description |
 |-------|-------------|
-| [`production-ready-workflow`](https://github.com/etemi/production-ready-workflow) | Full-app mock-data eradication & production hardening |
+| [`production-ready-workflow`](https://github.com/etemigarba/Production-Ready-Workflow) | Full-app mock-data eradication & production hardening |
 | [`systematic-implementation`](https://github.com/etemi/systematic-implementation) | Gate-controlled SDLC for any software task |
 | [`loop-engineer`](https://github.com/etemi/loop-engineer) | Autonomous agent loops with verification gates |
 | [`agent-architecture-audit`](https://github.com/etemi/agent-architecture-audit) | 12-layer diagnostic for agent/LLM applications |

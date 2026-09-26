@@ -1,0 +1,38 @@
+{
+  "name": "debug-and-fix-bugs",
+  "version": "1.0.0",
+  "description": "Systematic three-phase debugging skill for Claude Code: architectural analysis → defect registration → production-ready refactoring with live verification",
+  "main": "skill/SKILL.md",
+  "scripts": {
+    "validate": "node scripts/validate-skill.js",
+    "lint:md": "markdownlint \"**/*.md\" --ignore node_modules",
+    "test": "npm run validate && npm run lint:md",
+    "prepare": "npm run test"
+  },
+  "keywords": [
+    "claude-code",
+    "debugging",
+    "skill",
+    "ecc",
+    "agentic-engineering",
+    "root-cause-analysis",
+    "production-ready",
+    "refactoring"
+  ],
+  "author": "Prof. Etemi Joshua Garba",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/etemi/debug-and-fix-bugs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/etemi/debug-and-fix-bugs/issues"
+  },
+  "homepage": "https://github.com/etemi/debug-and-fix-bugs#readme",
+  "devDependencies": {
+    "markdownlint-cli": "^0.41.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
